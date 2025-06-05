@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hill Escapes India - Explore Majestic Destinations</title>
+    <link rel="stylesheet" type="text/css" href="int.css">
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_GA_MEASUREMENT_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'YOUR_GA_MEASUREMENT_ID');
+    </script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">Hill Escapes India</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1>Discover the Serenity of Indian Hills</h1>
+            <p>Your ultimate guide to breathtaking hill stations in India.</p>
+            <button class="cta-button" data-analytics-event="cta_hero_click" data-event-category="Homepage CTA"
+                data-event-action="Click" data-event-label="Explore Destinations Button">Explore Destinations</button>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="section">
+            <h2>Welcome to Hill Escapes</h2>
+            <p>Immerse yourself in the tranquility of nature. We bring you the best hill stations for your next
+                unforgettable journey.</p>
+        </section>
+
+        <section id="destinations" class="section">
+            <h2>Popular Hill Destinations</h2>
+            <div class="destination-grid">
+                <div class="destination-card" data-destination-id="shimla">
+                    <img src="C:\Users\2397927\Desktop\img2.jpeg" alt="Shimla">
+                    <h3>Shimla, Himachal Pradesh</h3>
+                    <p>The Queen of Hills, known for its colonial architecture and stunning views.</p>
+                    <button class="details-button" data-analytics-event="view_destination_details"
+                        data-destination-name="Shimla">View Details</button>
+                </div>
+
+                <div class="destination-card" data-destination-id="manali">
+                    <img src="C:\Users\2397927\Desktop\img3.jpg" alt="Manali">
+                    <h3>Manali, Himachal Pradesh</h3>
+                    <p>Adventure hub with snow-capped mountains and thrilling activities.</p>
+                    <button class="details-button" data-analytics-event="view_destination_details"
+                        data-destination-name="Manali">View Details</button>
+                </div>
+
+                <div class="destination-card" data-destination-id="ooty">
+                    <img src="C:\Users\2397927\Desktop\img4.jpg" alt="Ooty">
+                    <h3>Ooty, Tamil Nadu</h3>
+                    <p>The "Queen of the Nilgiris," famous for its tea gardens and pleasant climate.</p>
+                    <button class="details-button" data-analytics-event="view_destination_details"
+                        data-destination-name="Ooty">View Details</button>
+                </div>
+
+                <div class="destination-card" data-destination-id="darjeeling">
+                    <img src="C:\Users\2397927\Desktop\img5.jpg" alt="Darjeeling">
+                    <h3>Darjeeling, West Bengal</h3>
+                    <p>Known for its Toy Train, tea plantations, and panoramic Himalayan views.</p>
+                    <button class="details-button" data-analytics-event="view_destination_details"
+                        data-destination-name="Darjeeling">View Details</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <h2>About Us</h2>
+            <p>We are passionate about showcasing the beauty of India's hill stations. Our aim is to help you plan your
+                perfect mountain getaway.</p>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact Us</h2>
+            <p>Have questions or need assistance? Reach out to us!</p>
+            <form id="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" data-analytics-event="contact_form_submit" data-event-category="Contact Form"
+                    data-event-action="Submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Hill Escapes India. All rights reserved.</p>
+    </footer>
+
+    <script src="int.js"></script>
+</body>
+
+</html>
